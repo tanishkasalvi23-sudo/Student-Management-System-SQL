@@ -1,4 +1,4 @@
-# Student Management System (SQL Project)
+# Student Management System using SQL
 
 ## Project Overview
 This project shows a Student Management System built using SQL. It includes database creation, table relationships, data insertion, and query operations for managing student records.
