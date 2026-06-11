@@ -20,7 +20,7 @@ This project shows a Student Management System built using SQL. It includes data
 ## Screenshots
 
 ### Query 1
-![Query1](screenshots/query1.jpg)
+[Query1](query1.jpg)
 
 ### Query 2
 ![Query2](screenshots/query2.jpg)
