@@ -46,5 +46,6 @@ This project shows a Student Management System built using SQL. It includes data
 ### Query 9
 [Query9](query9.jpg)
 
-
+### Query 10
+[Query10](query10.jpg)
 
