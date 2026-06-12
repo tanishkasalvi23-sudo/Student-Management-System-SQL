@@ -20,7 +20,7 @@ This project shows a Student Management System built using SQL. It includes data
 ## Screenshots
 
 ### Task 1 - All Students
-![Task1](https://github.com/tanishkasalvi23-sudo/Student-Management-System-SQL/blob/main/task1_all_students.jpg?raw=true)
+![Task1](all_students.jpg)
 
 ### Task 2 - Average Scores
 ![Task2](https://github.com/tanishkasalvi23-sudo/Student-Management-System-SQL/blob/main/task2_average_scores.jpg?raw=true)
