@@ -1,5 +1,9 @@
+-- Creating the database
 CREATE DATABASE StudentManagement;
+
 USE StudentManagement;
+
+-- Creating the Students table
 CREATE TABLE Students (
     StudentID INT AUTO_INCREMENT PRIMARY KEY,
     Name VARCHAR(50),
@@ -11,6 +15,7 @@ CREATE TABLE Students (
     EnglishScore INT
 );
 
+-- Inserting 10 sample student records
 INSERT INTO Students
 (Name, Gender, Age, Grade, MathScore, ScienceScore, EnglishScore)
 VALUES
@@ -24,41 +29,51 @@ VALUES
 ('Ishan', 'M', 18, 'A', 95, 94, 96),
 ('Ankita', 'F', 19, 'C', 60, 62, 58),
 ('Ishita', 'F', 17, 'B', 83, 87, 89);
+
+-- Task 1: Display all students and their details
 SELECT * FROM Students;
 
-SELECT 
-AVG(MathScore) AS Avg_Math,
-AVG(ScienceScore) AS Avg_Science,
-AVG(EnglishScore) AS Avg_English
+-- Task 2: Calculate average scores for each subject
+SELECT
+    AVG(MathScore) AS Avg_Math,
+    AVG(ScienceScore) AS Avg_Science,
+    AVG(EnglishScore) AS Avg_English
 FROM Students;
 
-SELECT 
-Name,
-(MathScore + ScienceScore + EnglishScore) AS TotalScore
+-- Task 3: Find the student with the highest total score
+SELECT
+    Name,
+    (MathScore + ScienceScore + EnglishScore) AS TotalScore
 FROM Students
 ORDER BY TotalScore DESC
 LIMIT 1;
 
-SELECT 
-Grade,
-COUNT(*) AS StudentCount
+-- Task 4: Count number of students in each grade
+SELECT
+    Grade,
+    COUNT(*) AS StudentCount
 FROM Students
 GROUP BY Grade;
 
-SELECT 
-Gender,
-AVG((MathScore + ScienceScore + EnglishScore)/3) AS AverageScore
+-- Task 5: Find average score for male and female students
+SELECT
+    Gender,
+    AVG((MathScore + ScienceScore + EnglishScore) / 3) AS AverageScore
 FROM Students
 GROUP BY Gender;
 
-SELECT 
-Name,
-MathScore
+-- Task 6: Identify students with Math score above 80
+SELECT
+    Name,
+    MathScore
 FROM Students
 WHERE MathScore > 80;
 
+-- Task 7: Update the grade of a specific student (StudentID = 5)
+-- Kartik's grade is being corrected from 'C' to 'A'
 UPDATE Students
 SET Grade = 'A'
 WHERE StudentID = 5;
-SELECT * FROM Students
-WHERE StudentID = 5;
+
+-- Verify the update
+SELECT * FROM Students WHERE StudentID = 5;
