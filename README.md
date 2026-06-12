@@ -19,33 +19,23 @@ This project shows a Student Management System built using SQL. It includes data
 
 ## Screenshots
 
-### Query 1
-[Query1](query1.jpg)
+### Task 1 - All Students
+![Task1](https://github.com/tanishkasalvi23-sudo/Student-Management-System-SQL/blob/main/task1_all_students.jpg?raw=true)
 
-### Query 2
-[Query2](query2.jpg)
+### Task 2 - Average Scores
+![Task2](https://github.com/tanishkasalvi23-sudo/Student-Management-System-SQL/blob/main/task2_average_scores.jpg?raw=true)
 
-### Query 3
-[Query3](query3.jpg)
+### Task 3 - Top Scorer
+![Task3](https://github.com/tanishkasalvi23-sudo/Student-Management-System-SQL/blob/main/task3_top_scorer.jpg?raw=true)
 
-### Query 4
-[Query4](query4.jpg)
+### Task 4 - Grade Count
+![Task4](https://github.com/tanishkasalvi23-sudo/Student-Management-System-SQL/blob/main/task4_grade_count.jpg?raw=true)
 
-### Query 5
-[Query5](query5.jpg)
+### Task 5 - Gender Average
+![Task5](https://github.com/tanishkasalvi23-sudo/Student-Management-System-SQL/blob/main/task5_gender_average.jpg?raw=true)
 
-### Query 6
-[Query6](query6.jpg)
+### Task 6 - Math Above 80
+![Task6](https://github.com/tanishkasalvi23-sudo/Student-Management-System-SQL/blob/main/task6_math_above80.jpg?raw=true)
 
-### Query 7
-[Query7](query7.jpg)
-
-### Query 8
-[Query8](query8.jpg)
-
-### Query 9
-[Query9](query9.jpg)
-
-### Query 10
-[Query10](query10.jpg)
-
+### Task 7 - Update Grade
+![Task7](https://github.com/tanishkasalvi23-sudo/Student-Management-System-SQL/blob/main/task7_update_grade.jpg?raw=true)
