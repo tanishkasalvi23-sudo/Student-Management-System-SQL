@@ -23,19 +23,19 @@ This project shows a Student Management System built using SQL. It includes data
 ![Task1](all_students.jpg)
 
 ### Task 2 - Average Scores
-![Task2](https://github.com/tanishkasalvi23-sudo/Student-Management-System-SQL/blob/main/task2_average_scores.jpg?raw=true)
+![Task2](average_scores.jpg)
 
 ### Task 3 - Top Scorer
-![Task3](https://github.com/tanishkasalvi23-sudo/Student-Management-System-SQL/blob/main/task3_top_scorer.jpg?raw=true)
+![Task3](top_scorer.jpg)
 
 ### Task 4 - Grade Count
-![Task4](https://github.com/tanishkasalvi23-sudo/Student-Management-System-SQL/blob/main/task4_grade_count.jpg?raw=true)
+![Task4](grade_count.jpg)
 
 ### Task 5 - Gender Average
-![Task5](https://github.com/tanishkasalvi23-sudo/Student-Management-System-SQL/blob/main/task5_gender_average.jpg?raw=true)
+![Task5](gender_average.jpg)
 
 ### Task 6 - Math Above 80
-![Task6](https://github.com/tanishkasalvi23-sudo/Student-Management-System-SQL/blob/main/task6_math_above80.jpg?raw=true)
+![Task6](math_above80.jpg)
 
 ### Task 7 - Update Grade
-![Task7](https://github.com/tanishkasalvi23-sudo/Student-Management-System-SQL/blob/main/task7_update_grade.jpg?raw=true)
+![Task7](update_grade.jpg)
